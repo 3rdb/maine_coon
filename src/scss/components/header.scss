@@ -1,5 +1,83 @@
-.logo svg {
-  width: 40px;
-  height: 8px;
-  fill: #000;
+.container {
+  background-color: var(--color-CodGray);
+}
+
+.header {
+
+  &__content {
+    position: relative;
+  }
+
+  &__container {
+    padding: 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-LimedOak);
+  }
+
+  &__content {
+    color: var(--color-LimedOak);
+  }
+
+  &__city {
+    margin-top: 13px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__text {
+    margin-top: 16px;
+    margin-bottom: 47px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "Yeseva One", "Georgia", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-white);
+  }
+
+  &__link {
+    padding: 13px 17px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-white);
+    border: 0.5px solid var(--color-LimedOak);
+    box-sizing: border-box;
+  }
+
+  &__img {
+    margin-top: 26px;
+    position: relative;
+    bottom: -6px;
+    right: -23px;
+  }
+}
+
+.logo {
+  padding-top: 14px;
+  padding-bottom: 18px;
+
+  svg {
+    width: 50px;
+    height: 50px;
+    fill: #A07B50;
+  }
+}
+
+.social__header {
+  display: none;
 }

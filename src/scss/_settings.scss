@@ -10,7 +10,12 @@ html {
 
 body {
   margin: 0;
-  font-family: "asd", sans-serif;
+  padding: 0;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   background-color: var(--color-white);
 }
 
