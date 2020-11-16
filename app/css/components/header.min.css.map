@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/header.min.css"],"names":[],"mappings":"AAAA,UACE,MAAA,KACA,OAAA,IACA,KAAA","file":"header.min.css","sourcesContent":[".logo svg {\n  width: 40px;\n  height: 8px;\n  fill: #000;\n}\n"]}
