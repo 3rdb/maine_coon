@@ -1,0 +1,75 @@
+.container {
+  background-color: $CodGray;
+}
+
+.header {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $LimedOak;
+  }
+
+  &__content {
+    position: relative;
+    color: $LimedOak;
+  }
+
+  &__city {
+    margin-top: 13px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__text {
+    margin-top: 16px;
+    margin-bottom: 47px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "Yeseva One", "Georgia", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: $white;
+  }
+
+  &__link {
+    border: 0.5px solid $LimedOak;
+    padding: 13px 17px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: $white;
+  }
+
+  &__img {
+    position: relative;
+    right: -23px;
+    bottom: -6px;
+    margin-top: 26px;
+  }
+}
+
+.logo {
+  padding-top: 14px;
+  padding-bottom: 18px;
+
+  svg {
+    width: 50px;
+    height: 50px;
+    fill: $LimedOak;
+  }
+}
+
+.social__header {
+  display: none;
+}
