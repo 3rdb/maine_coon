@@ -1,0 +1,77 @@
+.advanteges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: $CodGray;
+
+  &__title {
+    margin: 0;
+    padding: 0 50px;
+    padding-top: 54px;
+    padding-bottom: 10px;
+    font-family: "Yeseva One", "Georgia", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: $white;
+  }
+
+  &__text {
+    padding-bottom: 23px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: $LimedOak;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 248px;
+    max-width: 290px;
+    background-color: $Thunder;
+  }
+
+  &__link {
+    display: block;
+    margin: 0 15px;
+    min-width: 260px;
+    min-height: 218px;
+
+    svg {
+      margin-top: 38px;
+      width: 80px;
+      height: 90px;
+      fill: $LimedOak;
+    }
+
+    &:hover {
+      background-color: $LimedOak;
+      transition: background-color 0.3s ease-out, fill 0.3s ease-out, stroke 0.3s ease-out;
+
+      svg {
+        fill: $white;
+      }
+    }
+  }
+
+  &__description {
+    display: block;
+    padding: 6px 21px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: $white;
+  }
+}
